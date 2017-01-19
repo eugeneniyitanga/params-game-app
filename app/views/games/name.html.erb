@@ -1,0 +1,4 @@
+<h1>Hey user your name is: <%= @name %></h1>
+<% if @name.start_with?("A") or @name.start_with?("a") %>
+ “Hey, your name starts with the first letter of the alphabet!”
+<% end %>
